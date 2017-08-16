@@ -8,4 +8,6 @@ target 'AnimeS' do
   # Pods for AnimeS
     pod 'SwiftyJSON'
     pod 'SwiftHTTP'
+    pod 'EZLoadingActivity'
+    pod 'BRYXBanner'
 end

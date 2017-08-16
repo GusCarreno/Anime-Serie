@@ -15,6 +15,9 @@
 		6A1658C11F42109800F63184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1658BA1F42109800F63184 /* LaunchScreen.storyboard */; };
 		6A1658C21F42109800F63184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1658BC1F42109800F63184 /* Main.storyboard */; };
 		6A1658C41F42155600F63184 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1658C31F42155600F63184 /* Globals.swift */; };
+		6AF5C6C51F44D4F1008F8E0D /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5C6C41F44D4F1008F8E0D /* Functions.swift */; };
+		6AF5C6C71F44D533008F8E0D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5C6C61F44D533008F8E0D /* Request.swift */; };
+		6AF5C6CB1F44ED1E008F8E0D /* AnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5C6CA1F44ED1E008F8E0D /* AnimeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		6A1658BB1F42109800F63184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A1658BD1F42109800F63184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A1658C31F42155600F63184 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		6AF5C6C41F44D4F1008F8E0D /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		6AF5C6C61F44D533008F8E0D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		6AF5C6CA1F44ED1E008F8E0D /* AnimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		752E32BE0E3DCDD5459301CC /* Pods-AnimeS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimeS/Pods-AnimeS.release.xcconfig"; sourceTree = "<group>"; };
 		BF48CFDBA81B16A00C0CD4A8 /* Pods_AnimeS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				6A1658C31F42155600F63184 /* Globals.swift */,
+				6AF5C6C61F44D533008F8E0D /* Request.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 		6A1658B71F42109800F63184 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5C6C41F44D4F1008F8E0D /* Functions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 		6A1658BE1F42109800F63184 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5C6CA1F44ED1E008F8E0D /* AnimeCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,11 +222,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AnimeS/Pods-AnimeS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BRYXBanner/BRYXBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/EZLoadingActivity/EZLoadingActivity.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHTTP/SwiftHTTP.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRYXBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZLoadingActivity.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHTTP.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -267,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A1658C41F42155600F63184 /* Globals.swift in Sources */,
+				6AF5C6CB1F44ED1E008F8E0D /* AnimeCollectionViewCell.swift in Sources */,
+				6AF5C6C71F44D533008F8E0D /* Request.swift in Sources */,
 				6A1658BF1F42109800F63184 /* ViewController.swift in Sources */,
 				6A1658A81F42102E00F63184 /* AnimeS.xcdatamodeld in Sources */,
+				6AF5C6C51F44D4F1008F8E0D /* Functions.swift in Sources */,
 				6A1658A01F42102E00F63184 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

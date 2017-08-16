@@ -1,15 +1,21 @@
 PODS:
+  - BRYXBanner (0.7.3)
+  - EZLoadingActivity (1.01)
   - SwiftHTTP (2.0.2)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
+  - BRYXBanner
+  - EZLoadingActivity
   - SwiftHTTP
   - SwiftyJSON
 
 SPEC CHECKSUMS:
+  BRYXBanner: bd26a91cb8a5826a8bc7687891043d287dd3ee53
+  EZLoadingActivity: edd7e387e5197b116ce2cccb3fd747ababc2a510
   SwiftHTTP: faa1a5f7670568ffc9361898229dbe84a6088468
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 74d9537a50e71b0a3c46423a77f8d9d33d40b4c4
+PODFILE CHECKSUM: f349a60145a0e3e5fb54363458475fc573cb9d1a
 
 COCOAPODS: 1.3.1

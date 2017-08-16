@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BRYXBanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>EZLoadingActivity.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AnimeS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15DA2A0B8FD469FBFFD606EF7502A1FB</key>
+		<key>0F3B36547C3C2CC3060475E614BCBF32</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7CEBD5E6DA4D9B31ECFA9C90BB08C9A</key>
+		<key>2449ECEAD762A1EC7EBCF77C31E823B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FF8FFE1CC6346EAE57F0370E66B4D6CA</key>
+		<key>B68B30BAA59D3C581E36B229F5026576</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B844007E623678013DC7877BA0C626FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6C9C02C296C5B1F3057ABE6CCBF53F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
